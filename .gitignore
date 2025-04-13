@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual env
+venv/
+env/
+
+# Django
+*.sqlite3
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Env files
+.env
+*.env
+
+# Migrations (اختیاری)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# IDEs & OS
+.vscode/
+
